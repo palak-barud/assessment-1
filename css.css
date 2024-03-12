@@ -1,38 +1,62 @@
-header{
+header {
     display: flex;
     justify-content: space-between;
     font-size: 30pt;
     text-decoration: none;
     margin: 10px;
-    
+
 }
-a{
+
+a {
     text-decoration: none;
     margin: 10px;
 }
-main{
-   
+
+main {
+
     display: flex;
-    
-    justify-content: space-between;
+
+    justify-content: space-around;
     margin: 150px;
 }
-button{
-    background-color: rgb(240,200,115);
+
+button {
+    background-color: rgb(240, 200, 115);
     border: 0;
-    height: 20pt;
-    width: 50pt;
+    height: 20px;
+    width: 80px;
 }
-#about h1{ 
-   display:flex;
-   justify-content: center; 
-align-items: center;
+
+button:hover {
+    color: black;
+    background-color: aqua;
 }
-#about h3{ display:flex;
-    justify-content: center; 
+
+#gh {
+    height: 30px;
+    width: 130px;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+#gh:hover {
+    background-color: rgba(230, 115, 115, 0.363);
+    color: black;
+}
+
+#about h1 {
+    display: flex;
+    justify-content: center;
     align-items: center;
- }
-#gt{
+}
+
+#about h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gt {
     background-color: black;
     border: solid;
     color: white;
@@ -40,20 +64,37 @@ align-items: center;
     height: 30pt;
 
 }
-#show{
+
+#show {
     border: 5px;
 }
-#br{
-    border-right:solid  thin;
-    background-image:linear-gradient(to right, blue 0%,red 50%,rgba(128, 0, 128, 0.103));
-    height:5px;
+
+#br {
+    border-right: solid thin;
+    background-image: linear-gradient(to right, blue 0%, red 50%, rgba(128, 0, 128, 0.137));
+    height: 5px;
     width: 700px;
 }
 
-footer{
+.bn {
+    margin-left: 130px;
+    font-size: 20pt;
+}
+
+#sc {
+    font-size: 13pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.active {
+    border-bottom: solid thick rgba(49, 2, 2, 0.753);
+}
+
+footer {
     padding-left: 600px;
 }
-#d{
+
+#d {
     height: 100px;
     width: 150px;
     border: solid white;
@@ -61,7 +102,8 @@ footer{
     background-color: antiquewhite;
     padding: 50px;
 }
-#ijn{
+
+#ijn {
     width: 150px;
     background-color: white;
     text-align: center;
@@ -72,21 +114,37 @@ footer{
     margin: 35px 105px;
 
 }
-#box{
+
+#box {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-    margin:110px 150px;
+    margin: 110px 150px;
 }
-.shivi{
+
+.shivi {
     border: solid thick black;
-    width:200px;
-    height:200px;
-text-align:center;
-padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
 }
-#palak{
+.shivi:hover{
+    transform:scale(1.5);
+}
+
+#palak {
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
+}
+.grid {
+    background-image: linear-gradient(to right, blue 0%, red 50%, rgba(128, 0, 128, 0.137));
+    background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#plk{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
